@@ -1,5 +1,5 @@
-import hotel from '../images/alexander-shatov-UVfvFrp4x4E-unsplash.jpg'
-import Netflix from '../images/valeriia-bugaiova-_pPHgeHz1uk-unsplash.jpg'
+import hotel from '../images/Booking.jpg'
+import Netflix from '../images/Netflix.jpg'
 import git from '../images/git-icon.svg'
 import figma from '../images/figma-icon.svg'
 import postman from '../images/postman-icon.svg'
@@ -140,7 +140,7 @@ export const skills = [
 export const experiences = [
 {
   id: 0,
-  img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+img: "https://cdn-icons-png.flaticon.com/512/919/919851.png" ,
   role: "Frontend Developer Intern",
   company: "Balansha",
   date: "May 2024 - July 2024",
@@ -158,7 +158,7 @@ export const experiences = [
 },
 {
   id: 1,
-  img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+img: "https://cdn-icons-png.flaticon.com/512/919/919851.png", // React icon
   role: "WordPress Developer Intern",
   company: "Hikbe",
   date: "May 2024 - July 2024",
@@ -185,7 +185,7 @@ export const projects = [
     description:
       "A full-stack MERN hotel booking website featuring a modern and creative frontend design. It uses demo data to simulate the booking experience, allowing users to view available hotels and make bookings in an intuitive interface.",
     image:
-      Netflix, 
+      hotel, 
     tags: ["React.js", "MongoDB", "Node.js", "Express.js", "CSS", "MERN"],
     category: "web app",
     github: "https://github.com/Deepak-Porwal-code/Hotel_Booking", 
@@ -198,7 +198,7 @@ export const projects = [
     description:
       "An impressive Netflix-inspired frontend clone using React.js. The app integrates with a movie API (like TMDB) to dynamically fetch and display movies by category. The user interface is sleek, responsive, and updates content based on user interactions.",
     image:
-      hotel,
+      Netflix,
     tags: ["React.js", "API", "TMDB", "JavaScript", "CSS", "Responsive UI"],
     category: "web app",
     github: "https://github.com/Deepak-Porwal-code/Netflix_Project_Clone",

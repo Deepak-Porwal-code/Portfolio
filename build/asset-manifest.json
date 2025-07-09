@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio_Deepak_Porwal/static/css/main.bf538fe7.css",
-    "main.js": "/Portfolio_Deepak_Porwal/static/js/main.6f4d9915.js",
-    "static/media/valeriia-bugaiova-_pPHgeHz1uk-unsplash.jpg": "/Portfolio_Deepak_Porwal/static/media/valeriia-bugaiova-_pPHgeHz1uk-unsplash.fafab0e7baac0589464d.jpg",
-    "static/media/alexander-shatov-UVfvFrp4x4E-unsplash.jpg": "/Portfolio_Deepak_Porwal/static/media/alexander-shatov-UVfvFrp4x4E-unsplash.bf72626ca9ef6353b26c.jpg",
-    "static/media/postman-icon.svg": "/Portfolio_Deepak_Porwal/static/media/postman-icon.da1da9ed8c0155586b90272c462f3e87.svg",
-    "static/media/git-icon.svg": "/Portfolio_Deepak_Porwal/static/media/git-icon.c0ad6253313a0547812bfb9a9f0894d6.svg",
-    "static/media/figma-icon.svg": "/Portfolio_Deepak_Porwal/static/media/figma-icon.e10aa0db3fc2714b2f6370b3f085f6fa.svg",
-    "index.html": "/Portfolio_Deepak_Porwal/index.html",
-    "main.bf538fe7.css.map": "/Portfolio_Deepak_Porwal/static/css/main.bf538fe7.css.map",
-    "main.6f4d9915.js.map": "/Portfolio_Deepak_Porwal/static/js/main.6f4d9915.js.map"
+    "main.css": "/static/css/main.bf538fe7.css",
+    "main.js": "/static/js/main.cbb992a3.js",
+    "static/media/Booking.jpg": "/static/media/Booking.fafab0e7baac0589464d.jpg",
+    "static/media/Netflix.jpg": "/static/media/Netflix.bf72626ca9ef6353b26c.jpg",
+    "static/media/postman-icon.svg": "/static/media/postman-icon.da1da9ed8c0155586b90272c462f3e87.svg",
+    "static/media/git-icon.svg": "/static/media/git-icon.c0ad6253313a0547812bfb9a9f0894d6.svg",
+    "static/media/figma-icon.svg": "/static/media/figma-icon.e10aa0db3fc2714b2f6370b3f085f6fa.svg",
+    "index.html": "/index.html",
+    "main.bf538fe7.css.map": "/static/css/main.bf538fe7.css.map",
+    "main.cbb992a3.js.map": "/static/js/main.cbb992a3.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.6f4d9915.js"
+    "static/js/main.cbb992a3.js"
   ]
 }
