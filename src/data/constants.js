@@ -14,7 +14,7 @@ export const Bio = {
   description:
     "Hi, I'm Deepak Porwal — a passionate Front-End Developer with a strong focus on creating clean, responsive, and user-friendly web applications using HTML, CSS, JavaScript, and React.",
   resume:
-    "https://drive.google.com/file/d/1dklHMk7F-1v1vaVoiXlq4wxkpC8AupHg/view?usp=sharing",
+    "https://drive.google.com/file/d/10cQiBj2K08p-7DlevPcfKPIYixgmm4xT/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/deepak-porwal-504489254/",
   insta: "https://www.instagram.com/De_epak1871/",
   facebook: "https://www.facebook.com/deepak.porwal.3939/",
