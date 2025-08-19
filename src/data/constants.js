@@ -202,7 +202,7 @@ export const projects = [
     tags: ["React.js", "API", "TMDB", "JavaScript", "CSS", "Responsive UI"],
     category: "web app",
     github: "https://github.com/Deepak-Porwal-code/Netflix_Project_Clone",
-    webapp: "https://netflix-site-project-clone.onrender.com", 
+    webapp: "https://bright-tapioca-7bf43e.netlify.app/", 
   },
 ];
 
