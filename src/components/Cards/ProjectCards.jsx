@@ -44,6 +44,9 @@ const Image = styled.img`
     background-color: ${({ theme }) => theme.white};
     border-radius: 10px;
     box-shadow: 0 0 16px 2px rgba(0,0,0,0.3);
+    object-fit: cover;
+    loading: lazy;
+    transition: opacity 0.3s ease;
 `
 
 const Tags = styled.div`
@@ -122,13 +125,18 @@ const Avatar = styled.img`
     border: 3px solid ${({ theme }) => theme.card};
 `
 
-const ProjectCards = ({project,setOpenModal}) => {
+const ProjectCards = React.memo(({project,setOpenModal}) => {
     return (
         <Card onClick={() => setOpenModal({state: true, project: project})}>
-            <Image src={project.image}/>
+            <Image 
+                src={project.image} 
+                alt={project.title}
+                loading="lazy"
+                decoding="async"
+            />
             <Tags>
                 {project.tags?.map((tag, index) => (
-                <Tag>{tag}</Tag>
+                <Tag key={index}>{tag}</Tag>
                 ))}
             </Tags>
             <Details>
@@ -137,13 +145,15 @@ const ProjectCards = ({project,setOpenModal}) => {
                 <Description>{project.description}</Description>
             </Details>
             <Members>
-                {project.member?.map((member) => (
-                    <Avatar src={member.img}/>
+                {project.member?.map((member, index) => (
+                    <Avatar key={index} src={member.img}/>
                 ))}
             </Members>
             {/* <Button>View Project</Button> */}
         </Card>
     )
-}
+})
+
+ProjectCards.displayName = 'ProjectCards';
 
 export default ProjectCards

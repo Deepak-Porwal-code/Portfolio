@@ -115,6 +115,8 @@ const SkillItem = styled.div`
 const SkillImage = styled.img`
   width: 24px;
   height: 24px;
+  loading: lazy;
+  object-fit: contain;
 `
 
 
@@ -126,20 +128,24 @@ const Skills = () => {
         <Desc>Here are some of my skills on which I have been working on for the past 1 years.
         </Desc>
         <SkillsContainer>
-          {skills.map((skill) => (
-            <Skill>
+          {skills.map((skill, skillIndex) => (
+            <Skill key={skillIndex}>
               <SkillTitle>{skill.title}</SkillTitle>
               <SkillList>
-                {skill.skills.map((item) => (
-                  <SkillItem>
-                    <SkillImage src={item.image}/>
+                {skill.skills.map((item, itemIndex) => (
+                  <SkillItem key={itemIndex}>
+                    <SkillImage 
+                      src={item.image} 
+                      alt={item.name}
+                      loading="lazy"
+                      decoding="async"
+                    />
                     {item.name}
                   </SkillItem>
                 ))}
               </SkillList>
             </Skill>
           ))}
-
         </SkillsContainer>
       </Wrapper>
     </Container>

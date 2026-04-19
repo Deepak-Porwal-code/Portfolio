@@ -31,11 +31,11 @@ export const skills = [
     skills: [
       {
         name: "React JS",
-        image: "https://cdn-icons-png.flaticon.com/512/1126/1126012.png",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       },
       {
         name: "Redux",
-        image: "https://cdn-icons-png.flaticon.com/512/5968/5968705.png",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
       },
       {
         name: "JavaScript",
@@ -43,7 +43,7 @@ export const skills = [
       },
       {
         name: "HTML",
-        image: "https://cdn-icons-png.flaticon.com/512/732/732212.png",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
       },
       {
         name: "CSS",
@@ -51,15 +51,15 @@ export const skills = [
       },
       {
         name: "Tailwind CSS",
-        image: "https://cdn-icons-png.flaticon.com/512/8099/8099277.png",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
       },
       {
         name: "Axios",
-        image: "https://cdn-icons-png.flaticon.com/512/2164/2164832.png",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/axios/axios-plain.svg",
       },
       {
         name: "Responsive Design",
-        image: "https://cdn-icons-png.flaticon.com/512/1055/1055687.png",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
       },
     ],
   },
@@ -68,23 +68,23 @@ export const skills = [
     skills: [
       {
         name: "Node JS",
-        image: "https://cdn-icons-png.flaticon.com/512/5968/5968322.png",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
       },
       {
         name: "Express JS",
-        image: "https://cdn-icons-png.flaticon.com/512/919/919825.png",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
       },
       {
         name: "REST APIs",
-        image: "https://cdn-icons-png.flaticon.com/512/2164/2164832.png",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg",
       },
       {
         name: "JWT",
-        image: "https://cdn-icons-png.flaticon.com/512/2092/2092063.png",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jwt/jwt-original.svg",
       },
       {
         name: "Spring Boot",
-        image: "https://cdn-icons-png.flaticon.com/512/226/226777.png",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
       },
     ],
   },
@@ -93,11 +93,11 @@ export const skills = [
     skills: [
       {
         name: "MongoDB",
-        image: "https://cdn-icons-png.flaticon.com/512/5968/5968342.png",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
       },
       {
         name: "MySQL",
-        image: "https://cdn-icons-png.flaticon.com/512/5968/5968313.png",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
       },
     ],
   },
@@ -106,19 +106,19 @@ export const skills = [
     skills: [
       {
         name: "LangChain",
-        image: "https://cdn-icons-png.flaticon.com/512/8637/8637099.png",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
       },
       {
         name: "LLM Workflows",
-        image: "https://cdn-icons-png.flaticon.com/512/4712/4712027.png",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
       },
       {
         name: "Twilio API",
-        image: "https://cdn-icons-png.flaticon.com/512/733/733585.png",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twilio/twilio-original.svg",
       },
       {
         name: "WATI API",
-        image: "https://cdn-icons-png.flaticon.com/512/733/733585.png",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/whatsapp/whatsapp-original.svg",
       },
     ],
   },
@@ -131,7 +131,7 @@ export const skills = [
       },
       {
         name: "GitHub",
-        image: "https://cdn-icons-png.flaticon.com/512/733/733553.png",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
       },
       {
         name: "Postman",
@@ -147,15 +147,15 @@ export const skills = [
       },
       {
         name: "IntelliJ IDEA",
-        image: "https://cdn-icons-png.flaticon.com/512/5968/5968282.png",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg",
       },
       {
         name: "Vercel",
-        image: "https://cdn-icons-png.flaticon.com/512/5968/5968350.png",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg",
       },
       {
         name: "Netlify",
-        image: "https://cdn-icons-png.flaticon.com/512/5968/5968919.png",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-original.svg",
       },
     ],
   },

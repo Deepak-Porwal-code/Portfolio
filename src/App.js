@@ -1,17 +1,20 @@
-import React, { useState } from "react";
+import React, { useState, Suspense, lazy } from "react";
 import { ThemeProvider } from "styled-components";
 import { darkTheme, lightTheme } from './utils/Themes.js';
 import { HashRouter } from 'react-router-dom';  
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Experience from "./components/Experience";
-import ProjectDetails from "./components/ProjectDetails";
+import PerformanceOptimizer from "./components/PerformanceOptimizer";
 import styled from "styled-components";
 import './App.css';
+
+// Lazy load components
+const Skills = lazy(() => import("./components/Skills"));
+const Projects = lazy(() => import("./components/Projects"));
+const Contact = lazy(() => import("./components/Contact"));
+const Footer = lazy(() => import("./components/Footer"));
+const Experience = lazy(() => import("./components/Experience"));
+const ProjectDetails = lazy(() => import("./components/ProjectDetails"));
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -26,6 +29,15 @@ const Wrapper = styled.div`
   clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
 `;
 
+const LoadingSpinner = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  color: ${({ theme }) => theme.text_primary};
+  font-size: 18px;
+`;
+
 function App() {
   const [darkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
@@ -33,21 +45,24 @@ function App() {
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <HashRouter>
+        <PerformanceOptimizer />
         <Navbar />
         <Body>
           <HeroSection />
-          <Wrapper>
-            <Skills />
-            <Experience />
-          </Wrapper>
-          <Projects openModal={openModal} setOpenModal={setOpenModal} />
-          <Wrapper>
-            <Contact />
-          </Wrapper>
-          <Footer />
-          {openModal.state && (
-            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
-          )}
+          <Suspense fallback={<LoadingSpinner>Loading...</LoadingSpinner>}>
+            <Wrapper>
+              <Skills />
+              <Experience />
+            </Wrapper>
+            <Projects openModal={openModal} setOpenModal={setOpenModal} />
+            <Wrapper>
+              <Contact />
+            </Wrapper>
+            <Footer />
+            {openModal.state && (
+              <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+            )}
+          </Suspense>
         </Body>
       </HashRouter>
     </ThemeProvider>

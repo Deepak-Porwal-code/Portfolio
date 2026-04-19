@@ -31,8 +31,12 @@ const HeroSection = () => {
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">
-
-                        <Img src={HeroImage} alt="hero-image" />
+                        <Img 
+                            src={HeroImage} 
+                            alt="Deepak Porwal - Frontend Developer" 
+                            loading="eager"
+                            decoding="async"
+                        />
                     </HeroRightContainer>
                 </HeroInnerContainer>
 
