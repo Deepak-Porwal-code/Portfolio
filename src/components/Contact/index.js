@@ -153,6 +153,15 @@ const ContactText = styled.div`
   font-weight: 500;
 `;
 
+const ContactLink = styled.a`
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+`;
+
 const ContactButton = styled.button`
   width: 100%;
   text-decoration: none;
