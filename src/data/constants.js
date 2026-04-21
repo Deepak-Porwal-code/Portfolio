@@ -1,5 +1,3 @@
-import hotel from '../images/Booking.jpg'
-import Netflix from '../images/Netflix.jpg'
 import blogImage from '../images/technology-communication-icons-symbols-concept.jpg'
 import taxaiImage from '../images/indomay19.jpg'
 import git from '../images/git-icon.svg'
@@ -239,29 +237,5 @@ export const projects = [
     category: "web app",
     github: "https://github.com/Deepak-Porwal-code",
     webapp: "https://blog-website-frontend-g34n.onrender.com/",
-  },
-  {
-    id: 2,
-    title: "Hotel Booking Website",
-    date: "Jun 2024 - Jul 2024",
-    description:
-      "A full-stack MERN hotel booking website featuring a modern and creative frontend design. It uses demo data to simulate the booking experience, allowing users to view available hotels and make bookings in an intuitive interface.",
-    image: hotel,
-    tags: ["React.js", "MongoDB", "Node.js", "Express.js", "CSS", "MERN"],
-    category: "web app",
-    github: "https://github.com/Deepak-Porwal-code/Hotel_Booking",
-    webapp: "https://hotel-booking-l0az.onrender.com",
-  },
-  {
-    id: 3,
-    title: "Netflix Clone Frontend",
-    date: "Jul 2024",
-    description:
-      "An impressive Netflix-inspired frontend clone using React.js. The app integrates with a movie API (like TMDB) to dynamically fetch and display movies by category. The user interface is sleek, responsive, and updates content based on user interactions.",
-    image: Netflix,
-    tags: ["React.js", "API", "TMDB", "JavaScript", "CSS", "Responsive UI"],
-    category: "web app",
-    github: "https://github.com/Deepak-Porwal-code/Netflix_Project_Clone",
-    webapp: "https://bright-tapioca-7bf43e.netlify.app/",
   },
 ];
