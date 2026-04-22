@@ -16,7 +16,7 @@ export const Bio = {
   description:
     "Frontend Developer with 11+ months of production experience across 3 companies — shipping real-time dashboards, e-commerce frontends, and AI-powered applications. Delivered 35% faster load times, 40% fewer bugs, and products used by 500+ daily users. Self-taught, execution-focused, and built for fast-moving product teams.",
   resume:
-    "https://drive.google.com/file/d/1XaUbDAbpYqX6_XkvRnfVaGdFY9TiT4rt/view?usp=sharing",
+    "https://drive.google.com/file/d/1zz-pZJRVqX4TN8PhaksPoYjVMCpZ5gqH/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/deepak-porwal-504489254/",
   email: "porwal99deepak@gmail.com",
   phone: "+91 73749 53088",
